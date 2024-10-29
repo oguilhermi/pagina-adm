@@ -3,9 +3,9 @@
 
 :root {
   font-size: 16px;
-  --cor-primaria: #06b6d4;
-  --cor-secundaria-1: #db2777;
-  --cor-secundaria-2: #fb7185;
+  --cor-primaria: #2e7d32;
+  --cor-secundaria-1: #2e7d32;
+  --cor-secundaria-2: #2e7d32;
   --cor-fonte: #000;
   --cor-fonte-fraca: #444;
   --cor-fonte-alt: #fff;
@@ -139,6 +139,10 @@ header .saudacao {
   align-self: end;
 }
 
+.letras-color{
+    color:black;
+}
+
 .saudacao .perfil p {
   font-size: 1.3rem;
   align-self: start;
@@ -152,7 +156,7 @@ header .saudacao {
 }
 
 aside {
-  background: var(--cor-primaria);
+  background:#2e7d32;
   color: var(--cor-fonte-alt);
   grid-column: 1 / 2;
   grid-row: 1 / span 3;
@@ -286,7 +290,7 @@ section h2 {
 .projetos .card .acoes button {
   background: var(--bg-card);
   border: none;
-  color: var(--cor-primaria);
+  color: #2e7d32;
   font-size: 1.2rem;
   padding: 8px;
 }
